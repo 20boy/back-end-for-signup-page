@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Kanit", sans-serif;
+  background-color: #fff;
+  transition: background-color 0.3 ease;
+  background-image: url("bckgrnd1.jpg");
+  background-size: cover;
+  color: #000;
+}
+body.dark-mode {
+  background-color: #343a40;
+  background-image: url("jnr-jose-qcQF7qlJIf8-unsplash.jpg");
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #3d3d29;
+}
+.dark-mode-toggle {
+  margin-right: 10px;
+}
+/* .darker {
+  margin-left: 80%;
+} */
+.dark-mode-toggle
+  .custom-control-input:checked
+  ~ .custom-control-label::before {
+  background-color: #ffffff; /* Checked background color */
+  border-color: #000; /* Checked border color */
+}
+.dark-mode-toggle .custom-control-input:focus ~ .custom-control-label::before {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0.5, 0, 0.1); /* Focus ring color */
+}
+.dark-mode-toggle
+  .custom-control-input:checked:focus
+  ~ .custom-control-label::before {
+  box-shadow: 0 0 0 0.25rem rgba(0, 0.7, 0, 0.1); /* Focus ring color */
+}
+.name {
+  margin-top: 100px;
+  margin-left: 26%;
+}
+.name h1 {
+  font-size: 80px;
+  color: rgb(106, 86, 220);
+}
+.image {
+  margin-left: 38%;
+  height: 600px;
+  width: 400px;
+  background-color: #343a40;
+  padding-left: 60px;
+  padding-top: 30px;
+  border-radius: 20px;
+  padding-right: 20px;
+}
+h3 {
+  color: white;
+}
+.ige {
+  height: 350px;
+  width: 270px;
+  border-radius: 40%;
+}
+.hero {
+  height: 800px;
+  width: 100%;
+  background-color: darksalmon;
+}
+.hero h1 {
+  margin-left: 45%;
+  margin-top: 20px;
+}
+hero.htel {
+  width: 85%;
+  height: 30px;
+  background-color: mediumturquoise;
+}
+@media screen and (min-width: 900px) {
+  .darker {
+    margin-left: 85%;
+  }
+}
+@media screen and (max-width: 600px) {
+  body {
+    margin: 0;
+    font-family: "Kanit", sans-serif;
+    background-color: #fff;
+    transition: background-color 0.3 ease;
+    background-image: url("bckgrnd1.jpg");
+    background-size: no-repeat;
+    color: #000;
+  }
+
+  .ige {
+    height: 250px;
+    width: 170px;
+    border-radius: 40%;
+  }
+  .name h1 {
+    font-size: 50px;
+  }
+  .image {
+    margin-left: 18%;
+    height: 550px;
+    width: 270px;
+    background-color: #343a40;
+    padding-left: 50px;
+    padding-top: 30px;
+    border-radius: 20px;
+    padding-right: 20px;
+  }
+}

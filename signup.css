@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,500&display=swap");
+
+form {
+  max-width: 500px;
+  margin: 2px yellow;
+}
+.containeer {
+  height: 100vh;
+  background-image: url(jnr-jose-qcQF7qlJIf8-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.conn {
+  width: 400px;
+  border: 3px solid #73ad21;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: aliceblue;
+  border-radius: 15px;
+}
+h4 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 10px;
+  line-height: normal;
+  letter-spacing: normal;
+  font-family: "Roboto Mono", monospace;
+}
+h4 span {
+  color: #d9260c;
+}
+
+.form-group label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-control {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #d8dace;
+  border-radius: 0.25rem;
+  background-color: transparent;
+}
+
+.form-control:focus {
+  border-color: #ceff80;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  background-color: #ffc107;
+  border-color: #ffc107;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.9s, background-color 0.9s, border-color 0.15s;
+  box-shadow: 2px 2px;
+  margin-left: 120px;
+}
+
+.btn:hover {
+  color: #212529;
+  background-color: #e0a800;
+  border-color: #d39e00;
+}
+.form-horizontal {
+  background-color: aliceblue;
+}
+.Have-Account {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.Have-Account a {
+  color: rgb(42, 165, 165);
+  padding-right: 20px;
+}
+.checkbox {
+  margin-left: 27%;
+}
+.checkboxx {
+  height: 20px;
+  width: 20px;
+  background-color: black;
+  margin-top: 10px;
+  color: #212529;
+  cursor: pointer;
+}
